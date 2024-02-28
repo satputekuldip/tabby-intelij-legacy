@@ -1,6 +1,6 @@
 package com.tabbyml.intellijtabby.actions
 
-import com.intellij.openapi.actionSystem.ActionUpdateThread
+//import com.intellij.openapi.actionSystem.ActionUpdateThread
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.components.service
@@ -51,7 +51,7 @@ class OpenAuthPage : AnAction() {
     e.presentation.isVisible = agentService.status.value == Agent.Status.UNAUTHORIZED
   }
 
-  override fun getActionUpdateThread(): ActionUpdateThread {
-    return ActionUpdateThread.BGT
-  }
+//  override fun getActionUpdateThread(): ActionUpdateThread {
+//    return ActionUpdateThread.BGT
+//  }
 }

@@ -5,4 +5,4 @@ pluginManagement {
   }
 }
 
-rootProject.name = "intellij-tabby"
+rootProject.name = "tabby-intelij-legacy"
